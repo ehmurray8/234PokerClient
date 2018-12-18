@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="stylesheets/game.css">
+    <title>234Poker</title>
+</head>
+<body id="background">
+    <img id="table" src="images/poker-felt.jpg" alt="Main Table"/>
+    <div id="community-cards">
+        <img class="community-card flop" src="images/CardImages/back_of_card.png" alt="Community Card 1"/>
+        <img class="community-card flop" src="images/CardImages/back_of_card.png" alt="Community Card 2"/>
+        <img class="community-card flop" src="images/CardImages/back_of_card.png" alt="Community Card 3"/>
+        <img class="community-card" id="turn" src="images/CardImages/back_of_card.png" alt="Community Card 4"/>
+        <img class="community-card" id="river" src="images/CardImages/back_of_card.png" alt="Community Card 5"/>
+    </div>
+    <div id="pot-container">
+        <p id="pot-description">Pot: $0</p>
+        <img id="pot-image" src="images/poker-chips.png" alt="Pot"/>
+    </div>
+    <div id="slide-container">
+        <input type="range" min="1" max="100" value="1" id="raise-slider">
+    </div>
+    <div id="action-container">
+        <div class="action-button">
+            <p class="action-label">Fold</p>
+            <p class="action-amount"></p>
+        </div>
+        <div class="action-button">
+            <p class="action-label">Call</p>
+            <p class="action-amount">$1</p>
+        </div>
+        <div class="action-button">
+            <p class="action-label">Raise</p>
+            <p class="action-amount">$2</p>
+        </div>
+    </div>
+    <div class="player-container" id="main-player">
+        <div class="player-cards">
+            <img src="images/CardImages/ace_of_clubs.png" alt="Player Card 1" class="player-card"/>
+            <img src="images/CardImages/ace_of_spades.png" alt="Player Card 2" class="player-card"/>
+        </div>
+        <div class="player-info">
+            <p>Username</p>
+            <p>$200</p>
+        </div>
+    </div>
+
+    <div class="player-container" id="player1">
+        <div class="player-cards">
+            <img src="images/CardImages/back_of_card.png" alt="Player Card 1" class="player-card"/>
+            <img src="images/CardImages/back_of_card.png" alt="Player Card 2" class="player-card"/>
+        </div>
+        <div class="player-info">
+            <p>Username</p>
+            <p>$200</p>
+        </div>
+    </div>
+
+    <div class="player-container" id="player2">
+        <div class="player-cards">
+            <img src="images/CardImages/back_of_card.png" alt="Player Card 1" class="player-card"/>
+            <img src="images/CardImages/back_of_card.png" alt="Player Card 2" class="player-card"/>
+        </div>
+        <div class="player-info">
+            <p>Username</p>
+            <p>$200</p>
+        </div>
+    </div>
+
+    <div class="player-container" id="player3">
+        <div class="player-cards">
+            <img src="images/CardImages/back_of_card.png" alt="Player Card 1" class="player-card"/>
+            <img src="images/CardImages/back_of_card.png" alt="Player Card 2" class="player-card"/>
+        </div>
+        <div class="player-info">
+            <p>Username</p>
+            <p>$200</p>
+        </div>
+    </div>
+
+    <div class="player-container" id="player4">
+        <div class="player-cards">
+            <img src="images/CardImages/back_of_card.png" alt="Player Card 1" class="player-card"/>
+            <img src="images/CardImages/back_of_card.png" alt="Player Card 2" class="player-card"/>
+        </div>
+        <div class="player-info">
+            <p>Username</p>
+            <p>$200</p>
+        </div>
+    </div>
+
+    <div class="player-container" id="player5">
+        <div class="player-cards">
+            <img src="images/CardImages/back_of_card.png" alt="Player Card 1" class="player-card"/>
+            <img src="images/CardImages/back_of_card.png" alt="Player Card 2" class="player-card"/>
+        </div>
+        <div class="player-info">
+            <p>Username</p>
+            <p>$200</p>
+        </div>
+    </div>
+
+    <div class="player-container" id="player6">
+        <div class="player-cards">
+            <img src="images/CardImages/back_of_card.png" alt="Player Card 1" class="player-card"/>
+            <img src="images/CardImages/back_of_card.png" alt="Player Card 2" class="player-card"/>
+        </div>
+        <div class="player-info">
+            <p>Username</p>
+            <p>$200</p>
+        </div>
+    </div>
+
+    <div class="player-container" id="player7">
+        <div class="player-cards">
+            <img src="images/CardImages/back_of_card.png" alt="Player Card 1" class="player-card"/>
+            <img src="images/CardImages/back_of_card.png" alt="Player Card 2" class="player-card"/>
+        </div>
+        <div class="player-info">
+            <p>Username</p>
+            <p>$200</p>
+        </div>
+    </div>
+
+     <div class="player-container" id="player8">
+        <div class="player-cards">
+            <img src="images/CardImages/back_of_card.png" alt="Player Card 1" class="player-card"/>
+            <img src="images/CardImages/back_of_card.png" alt="Player Card 2" class="player-card"/>
+        </div>
+        <div class="player-info">
+            <p>Username</p>
+            <p>$200</p>
+        </div>
+    </div>
+</body>
+</html>
